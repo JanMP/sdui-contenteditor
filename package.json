@@ -1,0 +1,18 @@
+{
+  "name": "sdui-contenteditor",
+  "version": "1.0.0",
+  "description": "Contenteditor and Markdowndisplay for JanMP:sdui Meteor packages",
+  "main": "sdui-contenteditor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/JanMP/sdui-contenteditor"
+  },
+  "keywords": [
+    "sdui"
+  ],
+  "author": "Jan Pilgenröder",
+  "license": "ISC"
+}
