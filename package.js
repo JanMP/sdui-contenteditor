@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'sdui-contenteditor',
+  name: 'janmp:sdui-contenteditor',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -13,12 +13,14 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('2.4');
   api.use('ecmascript');
-  api.mainModule('sdui-contenteditor.js');
+  api.use('coffeescript');
+  api.mainModule('sdui-contenteditor.coffee');
 });
 
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
+  api.use('coffeescript');
   api.use('sdui-contenteditor');
   api.mainModule('sdui-contenteditor-tests.js');
 });
